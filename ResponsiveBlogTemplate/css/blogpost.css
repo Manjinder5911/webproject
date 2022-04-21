@@ -1,0 +1,28 @@
+.post-img{
+    height: 300px;
+    overflow: hidden;
+    /* margin-top: 14px; */
+    
+}
+.post-img img{
+    width: 100%;
+}
+.blog-post-content{
+    margin: 20px auto;
+    /* background-color:rebeccapurple; */
+    padding: 9px;
+    font-size: 1.2em;
+}
+.blog-post-content h1{
+    text-align: center;
+}
+/* .blog-post-content p{
+    text-align: justify;
+} */
+.row{
+    display: flex;
+    overflow-x: auto;
+}
+.more-post{
+    flex-direction: column;
+}
