@@ -1,0 +1,41 @@
+{"data" : [
+    {
+      "Country": "Switzerland",
+      "CountryCode": "CH",
+      "Lat": "46.82",
+      "Lon": "8.23",
+      "Cases": 100,
+      "Status": "confirmed",
+      "Date": "2020-02-25T00:00:00Z"
+    },
+    
+    {
+      "Country": "Kazakistan",
+      "CountryCode": "CH",
+      "Lat": "46.82",
+      "Lon": "70",
+      "Cases": 300,
+      "Status": "confirmed",
+      "Date": "2020-02-25T00:00:00Z"
+    },
+    
+    {
+      "Country": "India",
+      "CountryCode": "CH",
+      "Lat": "25",
+      "Lon": "80",
+      "Cases": 700,
+      "Status": "confirmed",
+      "Date": "2020-02-25T00:00:00Z"
+    },
+    
+    {
+      "Country": "Canada",
+      "CountryCode": "CH",
+      "Lat": "53",
+      "Lon": "237",
+      "Cases": 200,
+      "Status": "confirmed",
+      "Date": "2020-02-25T00:00:00Z"
+    }   
+    ]}

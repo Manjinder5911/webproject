@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url('virus.jpg') no-repeat center center/cover ;
+}
+nav{
+    background-color: rgb(73, 90, 116);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 5px;
+}
+.item{
+    list-style: none;
+    padding: 1rem 2.5rem;
+  
+}
+.item a{
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color:rgb(234, 245, 245);
+    font-family: 'Baloo Thambi 2', cursive;
+}
+.item a:hover{
+    color: rgb(233, 126, 88);
+}
+.container{
+    background-color: rgba(245, 245, 236, 0.644);
+    max-width: 70%;
+    margin: 15px auto;
+    padding: 24px;
+    /* height: 300vh; */
+    border-radius: 15px;
+}
+.container h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom:25px ;
+    font-family: 'Gideon Roman', cursive;
+    padding: 0;
+}
+.container h2{
+    display: flex;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    font-size: 1.6rem;
+    margin-bottom:8px ;
+    font-family: 'Gideon Roman', cursive;
+}
+.box{
+    margin-bottom: 25px;
+}
+.box p{
+    font-size: 1.1rem;
+}
+.box h3{
+    font-size: 1.5rem;
+}
+.box ul{
+    padding: 5px 15px;
+    margin-bottom: 10px;
+}
+.box li{
+    padding: 5px 0px;
+    font-size: 1.1rem;
+}
+.qa{
+    margin: 10px 0px;
+}
+.qa p{
+    padding: 3px 0px;
+    font-size:1.1rem ;
+}
+@media (min-width:300px) and (max-width:680px){
+    nav{
+        padding: 0px 0px;
+    }
+    .item{
+        padding: 5px 0.5rem;   
+    }
+    .item a{
+        text-decoration: none;
+        font-size: 0.9rem;}
+    .container{
+        max-width: 77%;
+        margin: 15px auto;
+        padding: 24px 10px;  
+    }
+    .container h1{
+        text-align: center;
+        font-size: 1.7rem;
+        margin-bottom:18px ;
+    }
+    .container h2{
+        font-size: 1.2rem;
+        margin-bottom:6px ;
+    }
+    .box{
+        margin-bottom: 18px;
+    }
+    .box p{
+        font-size: 0.9rem;
+    }
+    .box h3{
+        font-size: 1.1rem;
+    }
+    .box ul{
+        padding: 3px 9px;
+        margin-bottom: 10px;
+    }
+    .box li{
+        padding: 3px 0px;
+        font-size: 0.9rem;
+    }
+    .qa{
+        margin: 7px 0px;
+    }
+    .qa p{
+        padding: 3px 0px;
+        font-size:0.9rem ;
+    }
+}
+@media (max-width:300px){
+    nav{
+        padding: 0px 0px;
+    }
+    .item{
+        padding: 5px 0.3rem;   
+    }
+    .item a{
+        text-decoration: none;
+        font-size: 0.7rem;}
+    .container{
+        max-width: 80%;
+        margin: 15px auto;
+        padding: 20px 8px;  
+    }
+    .container h1{
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom:15px ;
+    }
+    .container h2{
+        font-size: 1rem;
+        margin-bottom:5px ;
+    }
+    .box{
+        margin-bottom: 15px;
+    }
+    .box p{
+        font-size: 0.7rem;
+    }
+    .box h3{
+        font-size: 0.9rem;
+    }
+    .box ul{
+        padding: 3px 9px;
+        margin-bottom: 8px;
+    }
+    .box li{
+        padding: 3px 0px;
+        font-size: 0.7rem;
+    }
+    .qa{
+        margin: 5px 0px;
+    }
+    .qa p{
+        padding: 3px 0px;
+        font-size:0.7rem ;
+    }
+}
